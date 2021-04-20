@@ -85,9 +85,9 @@ The following check is performed for every feature in the dataset, for the not e
 
 The following check is performed for every feature in the dataset, for the 'narrower' codelist:
 
-* Check that all the [SoilThemeParameterType](#SoilThemeParameterType) elements has a xlink:href attribute pointing to a [pre-defined value](#preDefinedValueA). If the check fails a manual check will be required asking to review the codelist definition in order to verify that any extensions do not overlap with the codelists that are defined in Annexes II, III and IV of the Implementing Rule. In particular, for the 'narrower' codelists the extended values shall refer to a parent value defined by the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
+* Check that all the [soilThemeParameterName](#soilThemeParameterName) elements has a xlink:href attribute pointing to a [pre-defined value](#preDefinedValueA). If the check fails a manual check will be required asking to review the codelist definition in order to verify that any extensions do not overlap with the codelists that are defined in Annexes II, III and IV of the Implementing Rule. In particular, for the 'narrower' codelists the extended values shall refer to a parent value defined by the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
 
-| <a name="preDefinedValueA"></a> Pre-defined values for xlink:href attribute of [SoilThemeParameterType](#SoilThemeParameterType) element are available in the INSPIRE Registry| 
+| <a name="preDefinedValueA"></a> Pre-defined values for xlink:href attribute of [soilThemeParameterName](#soilThemeParameterName) element are available in the INSPIRE Registry| 
 | ---- | 
 | SoilDerivedObjectParameterNameValue: http://inspire.ec.europa.eu/codelist/SoilDerivedObjectParameterNameValue |
 
@@ -156,11 +156,7 @@ qualifierPlace <a name="qualifierPlace"></a> | //schema-element(so:ObservedSoilP
 WRBqualifier <a name="WRBqualifier"></a> | //schema-element(so:ObservedSoilProfile)/so:WRBSoilName/so:WRBSoilNameType/so:WRBQualifierGroup/so:WRBQualifierGroupType/so:WRBqualifier/@xlink:href <br> //schema-element(so:DerivedSoilProfile)/so:WRBSoilName/so:WRBSoilNameType/so:WRBQualifierGroup/so:WRBQualifierGroupType/so:WRBqualifier/@xlink:href | 1 | No
 WRBReferenceSoilGroup <a name="WRBReferenceSoilGroup"></a> | //schema-element(so:ObservedSoilProfile)/so:WRBSoilName/so:WRBSoilNameType/so:WRBReferenceSoilGroup/@xlink:href <br> //schema-element(so:DerivedSoilProfile)/so:WRBSoilName/so:WRBSoilNameType/so:WRBReferenceSoilGroup/@xlink:href | 1 | No
 WRBspecifier <a name="WRBspecifier"></a> | //schema-element(so:ObservedSoilProfile)/so:WRBSoilName/so:WRBSoilNameType/so:WRBQualifierGroup/so:WRBQualifierGroupType/so:WRBspecifier/@xlink:href <br> //schema-element(so:DerivedSoilProfile)/so:WRBSoilName/so:WRBSoilNameType/so:WRBQualifierGroup/so:WRBQualifierGroupType/so:WRBspecifier/@xlink:href | 0..2 | No
-SoilThemeParameterType <a name="SoilThemeParameterType"></a> | //schema-element(so:SoilThemeCoverage)/so:soilThemeParameter/so:SoilThemeParameterType/@xlink:href | 1 | No
-
-
-
-
+soilThemeParameterName <a name="soilThemeParameterName"></a> | //schema-element(so:SoilThemeCoverage)/so:soilThemeParameter/so:SoilThemeParameterType/so:soilThemeParameterName/@xlink:href | 1 | No
 layerGenesisEnvironment <a name="layerGenesisEnvironment"></a> | //schema-element(so:SoilLayer)/so:layerGenesisEnvironment/@xlink:href | 0..1 | Yes
 layerGenesisProcess <a name="layerGenesisProcess"></a> | //schema-element(so:SoilLayer)/so:layerGenesisProcess/@xlink:href | 0..1 | Yes
 layerRockType <a name="layerRockType"></a> | //schema-element(so:SoilLayer)/so:layerRockType/@xlink:href | 0..\* | Yes
