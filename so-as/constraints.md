@@ -71,10 +71,10 @@ The following checks shall be manually performed for every feature in the datase
 	* Check that the result of the soil site observation is of type SoilObservationResult.
 
 * SoilThemeCoverage:
-	* Check that the [rangeSet](rangeSetSTC) values are of one of the following types: Number; RangeType; CharacterString (OCL: "inv: rangeSet->oclIsKindOf(Number) or rangeSet->oclIsKindOf(Characterstring) or rangeSet->oclIsKindOf(RangeType)").
+	* Check that the [rangeSet](#rangeSetSTC) values are of one of the following types: Number; RangeType; CharacterString (OCL: "inv: rangeSet->oclIsKindOf(Number) or rangeSet->oclIsKindOf(Characterstring) or rangeSet->oclIsKindOf(RangeType)").
 
 * SoilThemeDescriptiveCoverage:
-	* Check that the [rangeSet](rangeSetSTDC) values are of one of the following types: Number; RangeType; CharacterString (OCL: "inv: rangeSet->oclIsKindOf(Number) or rangeSet->oclIsKindOf(Characterstring) or rangeSet->oclIsKindOf(RangeType)").
+	* Check that the [rangeSet](#rangeSetSTDC) values are of one of the following types: Number; RangeType; CharacterString (OCL: "inv: rangeSet->oclIsKindOf(Number) or rangeSet->oclIsKindOf(Characterstring) or rangeSet->oclIsKindOf(RangeType)").
 
 
 **Reference(s)**: 
