@@ -23,7 +23,6 @@ This data theme currently has the following empty code lists:
 
 **Notes**
 
-The [Technical Guidelines](./README.md#ref_TG_DS_SU) defines recommended values, available in the INSPIRE Registry, that may be used by data providers and. Before creating new terms, please check if one of them can be used.
 
 ## Messages
 
