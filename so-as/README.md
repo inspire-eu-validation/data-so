@@ -48,7 +48,6 @@ The following abbreviations are used in the test text for referring to external 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
 TG DS-SO <a name="ref_TG_DS_SO"></a>   | [INSPIRE Data Specification on Soil – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_SO_v3.0.pdf)
-TG DS-ACT-CORE <a name="ref_TG_DS_ACT-CORE"></a> | [INSPIRE Data Specifications – Base Models – Activity Complex – D2.10.3_v1.0rc3](https://inspire.ec.europa.eu/file/1538/download?token=mkf3-_OQ)
 TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
 IR-ISDSS <a name="ref_IR-ISDSS"></a>   | [Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services](https://eur-lex.europa.eu/eli/reg/2010/1089/2014-12-31)
 
