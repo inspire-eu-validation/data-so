@@ -42,9 +42,9 @@
 
 The following checks are performed for every feature in the dataset:
 
-* Check that the attributes [layerGenesisProcess](layerGenesisProcess), [layerGenesisEnvironment](layerGenesisEnvironment), [layerGenesisProcessState](layerGenesisProcessState) and [layerRockType](layerRockType) are only provided where the [layerType](layerType) is of the value “[geogenic](http://inspire.ec.europa.eu/codelist/LayerTypeValue/geogenic)” (OCL: "inv: self.layerType = LayerTypeValue::geogenic implies (self.layerGenisisEnvironment.isNotEmpty() and self.layerGenisisProcess.isNotEmpty() and self.layerRockType.isNotEmpty() and layerGenesisProcessState.isNotEmpty())").
+* Check that the attributes [layerGenesisProcess](#layerGenesisProcess), [layerGenesisEnvironment](#layerGenesisEnvironment), [layerGenesisProcessState](#layerGenesisProcessState) and [layerRockType](#layerRockType) are only provided where the [layerType](#layerType) is of the value “[geogenic](http://inspire.ec.europa.eu/codelist/LayerTypeValue/geogenic)” (OCL: "inv: self.layerType = LayerTypeValue::geogenic implies (self.layerGenisisEnvironment.isNotEmpty() and self.layerGenisisProcess.isNotEmpty() and self.layerRockType.isNotEmpty() and layerGenesisProcessState.isNotEmpty())").
 
-* Check that at least one of the values ([upperValue](upperValue) or [lowerValue](lowerValue)) of the RangeType dataType is not empty (OCL: "inv: self.upperValue->notEmpty() or self.lowerValue->notEmpty()").
+* Check that at least one of the values ([upperValue](#upperValue) or [lowerValue](#lowerValue)) of the RangeType dataType is not empty (OCL: "inv: self.upperValue->notEmpty() or self.lowerValue->notEmpty()").
 
 
 The following checks shall be manually performed for every feature in the dataset:
