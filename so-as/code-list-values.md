@@ -108,9 +108,9 @@ The following checks are performed for every feature in the dataset, for the 'op
 | ---- | 
 | EventProcessValue: http://inspire.ec.europa.eu/codelist/EventProcessValue |
 
-* Check that all the [layerGenesisProcess](#layerGenesisProcess) elements have a xlink:href attribute pointing to a [pre-defined value](#preDefinedValue3). If the check fails a manual check will be required asking to review the code list definition in order to verify that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
+* Check that all the [layerRockType](#layerRockType) elements have a xlink:href attribute pointing to a [pre-defined value](#preDefinedValue3). If the check fails a manual check will be required asking to review the code list definition in order to verify that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
 
-| <a name="preDefinedValue3"></a> Pre-defined values for xlink:href attribute of [layerGenesisProcess](#layerGenesisProcess) element are available in the INSPIRE Registry | 
+| <a name="preDefinedValue3"></a> Pre-defined values for xlink:href attribute of [layerRockType](#layerRockType) element are available in the INSPIRE Registry | 
 | ---- | 
 | LithologyValue: http://inspire.ec.europa.eu/codelist/LithologyValue |
 
