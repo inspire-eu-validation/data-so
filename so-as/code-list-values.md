@@ -12,6 +12,7 @@ When an attribute has a code list as its type, verify that the values comply wit
 * takes only a value explicitly specified in the INSPIRE code list register or shall take a value that is narrower (i.e. more specific) than those explicitly specified in the application schema when the code list‘s extensibility is 'narrower'.
 * takes values explicitly specified in the INSPIRE code list register when the code list‘s extensibility is 'open' or if a value is not one of the values listed in the code list register check that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule and that all extensions conform to the requirements (This last check is a manual test).
 
+<br>
 
 The following check is performed for every feature in the dataset, for the not extensible codelist:
 
@@ -81,7 +82,7 @@ The following check is performed for every feature in the dataset, for the not e
 | ---- | 
 | WRBSpecifierValue: http://inspire.ec.europa.eu/codelist/WRBSpecifierValue |
 
-
+<br>
 
 The following check is performed for every feature in the dataset, for the 'narrower' codelist:
 
@@ -91,7 +92,7 @@ The following check is performed for every feature in the dataset, for the 'narr
 | ---- | 
 | SoilDerivedObjectParameterNameValue: http://inspire.ec.europa.eu/codelist/SoilDerivedObjectParameterNameValue |
 
-
+<br>
 
 The following checks are performed for every feature in the dataset, for the 'open' codelist:
 
