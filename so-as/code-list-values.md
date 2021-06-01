@@ -90,7 +90,7 @@ The following checks are performed for every feature in the dataset, for the not
 
 <br>
 
-The following check is performed for every feature in the dataset, for the 'narrower' codelists:
+The following check is performed for every feature in the dataset, for the 'narrower' codelist:
 
 * Check that all the [soilThemeParameterName](#soilThemeParameterName) elements has a xlink:href attribute pointing to a [pre-defined value](#preDefinedValueA). If the check fails a manual check will be required asking to review the codelist definition in order to verify that any extensions do not overlap with the codelists that are defined in Annexes II, III and IV of the Implementing Rule. In particular, for the 'narrower' codelists the extended values shall refer to a parent value defined by the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
 
@@ -100,7 +100,7 @@ The following check is performed for every feature in the dataset, for the 'narr
 
 <br>
 
-The following checks are performed for every feature in the dataset, for the 'open' codelist:
+The following checks are performed for every feature in the dataset, for the 'open' codelists:
 
 * Check that all the [layerGenesisEnvironment](#layerGenesisEnvironment) elements have a xlink:href attribute pointing to a [pre-defined value](#preDefinedValue1). If the check fails a manual check will be required asking to review the code list definition in order to verify that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
 
