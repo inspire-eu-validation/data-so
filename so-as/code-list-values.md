@@ -14,25 +14,55 @@ When an attribute has a code list as its type, verify that the values comply wit
 
 <br>
 
-The following check is performed for every feature in the dataset, for the not extensible codelist:
+The following checks shall be manually performed for every feature in the dataset, for the not extensible codelists that are externally managed:
 
-* Check that all the [FAOHorizonMaster](#FAOHorizonMaster) elements have a xlink:href attribute pointing to a [valid value](#validValue1). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
+* Check that all the [FAOHorizonMaster](#FAOHorizonMaster) elements have a [valid value](#validValue1).
 
-| <a name="validValue1"></a> Valid values for xlink:href attribute of [FAOHorizonMaster](#FAOHorizonMaster) element are available in the INSPIRE Registry. | 
+| <a name="validValue1"></a> More information about valid values for xlink:href attribute of [FAOHorizonMaster](#FAOHorizonMaster) element are available in the INSPIRE Registry. | 
 | ---- | 
 | FAOHorizonMasterValue: http://inspire.ec.europa.eu/codelist/FAOHorizonMasterValue |
 
-* Check that all the [FAOHorizonSubordinate](#FAOHorizonSubordinate) elements have a xlink:href attribute pointing to a [valid value](#validValue2). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
+* Check that all the [FAOHorizonSubordinate](#FAOHorizonSubordinate) elements have a [valid value](#validValue2).
 
-| <a name="validValue2"></a> Valid values for xlink:href attribute of [FAOHorizonSubordinate](#FAOHorizonSubordinate) element are available in the INSPIRE Registry. | 
+| <a name="validValue2"></a> More information about valid values for xlink:href attribute of [FAOHorizonSubordinate](#FAOHorizonSubordinate) element are available in the INSPIRE Registry. | 
 | ---- | 
 | FAOHorizonSubordinateValue: http://inspire.ec.europa.eu/codelist/FAOHorizonSubordinateValue |
 
-* Check that all the [FAOPrime](#FAOPrime) elements have a xlink:href attribute pointing to a [valid value](#validValue3). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
+* Check that all the [FAOPrime](#FAOPrime) elements have a [valid value](#validValue3).
 
-| <a name="validValue3"></a> Valid values for xlink:href attribute of [FAOPrime](#FAOPrime) element are available in the INSPIRE Registry. | 
+| <a name="validValue3"></a> More information about valid values for xlink:href attribute of [FAOPrime](#FAOPrime) element are available in the INSPIRE Registry. | 
 | ---- | 
 | FAOPrimeValue: http://inspire.ec.europa.eu/codelist/FAOPrimeValue |
+
+* Check that all the [qualifierPlace](#qualifierPlace) elements have a [valid value](#validValue8). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
+
+| <a name="validValue8"></a> More information about valid values for xlink:href attribute of [qualifierPlace](#qualifierPlace) element are available in the INSPIRE Registry. | 
+| ---- | 
+| WRBQualifierPlaceValue: http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue |
+
+* Check that all the [WRBqualifier](#WRBqualifier) elements have a [valid value](#validValue9).
+
+| <a name="validValue9"></a> More information about valid values for xlink:href attribute of [WRBqualifier](#WRBqualifier) element are available in the INSPIRE Registry. | 
+| ---- | 
+| WRBQualifierValue: http://inspire.ec.europa.eu/codelist/WRBQualifierValue |
+
+* Check that all the [WRBReferenceSoilGroup](#WRBReferenceSoilGroup) elements have a [valid value](#validValue10).
+
+| <a name="validValue10"></a> More information about valid values for xlink:href attribute of [WRBReferenceSoilGroup](#WRBReferenceSoilGroup) element are available in the INSPIRE Registry. | 
+| ---- | 
+| WRBReferenceSoilGroupValue: http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue |
+
+* Check that all the [WRBspecifier](#WRBspecifier) elements have a [valid value](#validValue11).
+
+| <a name="validValue11"></a> More information about valid values for xlink:href attribute of [WRBspecifier](#WRBspecifier) element are available in the INSPIRE Registry. | 
+| ---- | 
+| WRBSpecifierValue: http://inspire.ec.europa.eu/codelist/WRBSpecifierValue |
+
+
+<br>
+
+The following checks are performed for every feature in the dataset, for the not extensible codelists:
+
 
 * Check that all the [layerGenesisProcessState](#layerGenesisProcessState) elements have a xlink:href attribute pointing to a [valid value](#validValue4). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
 
@@ -57,30 +87,6 @@ The following check is performed for every feature in the dataset, for the not e
 | <a name="validValue7"></a> Valid values for xlink:href attribute of [soilPlotType](#soilPlotType) element are available in the INSPIRE Registry. | 
 | ---- | 
 | SoilPlotTypeValue: http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue |
-
-* Check that all the [qualifierPlace](#qualifierPlace) elements have a xlink:href attribute pointing to a [valid value](#validValue8). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
-
-| <a name="validValue8"></a> Valid values for xlink:href attribute of [qualifierPlace](#qualifierPlace) element are available in the INSPIRE Registry. | 
-| ---- | 
-| WRBQualifierPlaceValue: http://inspire.ec.europa.eu/codelist/WRBQualifierPlaceValue |
-
-* Check that all the [WRBqualifier](#WRBqualifier) elements have a xlink:href attribute pointing to a [valid value](#validValue9). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
-
-| <a name="validValue9"></a> Valid values for xlink:href attribute of [WRBqualifier](#WRBqualifier) element are available in the INSPIRE Registry. | 
-| ---- | 
-| WRBQualifierValue: http://inspire.ec.europa.eu/codelist/WRBQualifierValue |
-
-* Check that all the [WRBReferenceSoilGroup](#WRBReferenceSoilGroup) elements have a xlink:href attribute pointing to a [valid value](#validValue10). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
-
-| <a name="validValue10"></a> Valid values for xlink:href attribute of [WRBReferenceSoilGroup](#WRBReferenceSoilGroup) element are available in the INSPIRE Registry. | 
-| ---- | 
-| WRBReferenceSoilGroupValue: http://inspire.ec.europa.eu/codelist/WRBReferenceSoilGroupValue |
-
-* Check that all the [WRBspecifier](#WRBspecifier) elements have a xlink:href attribute pointing to a [valid value](#validValue11). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
-
-| <a name="validValue11"></a> Valid values for xlink:href attribute of [WRBspecifier](#WRBspecifier) element are available in the INSPIRE Registry. | 
-| ---- | 
-| WRBSpecifierValue: http://inspire.ec.europa.eu/codelist/WRBSpecifierValue |
 
 <br>
 
@@ -138,6 +144,7 @@ Identifier  |  Message text (parameters start with '$')
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 disallowedCodeListValue <a name="disallowedCodeListValue"/> | XML document '$filename', $featureType '$gmlid': The property '$propertyName' has a value '$value' that is not one of the allowed values listed at $codelist. Please note that the URIs of all code list values from the INSPIRE Registry shall be referenced using the http protocol.
 reviewCodeListValue <a name="reviewCodeListValue"/> | XML document '{filename}', {featureType} '{gmlid}': The property '{property}' has a value '{value}' that is not one of the pre-defined values in the INSPIRE data specification. The same value is used by {count} other features in the dataset, too. Extensions to the pre-defined values are allowed, but must not overlap with one of the pre-defined values and be consistent with the specification of the property. Please review the definition of the value. Please note that the URIs of all code list values from the INSPIRE Registry shall be referenced using the http protocol.
+checkManuallyCodeListValue <a name="checkManuallyCodeListValue"/> | XML document '$filename', $featureType '$gmlid': The property '$propertyName' has the following value '$value', please check manually that it is in accordance with the related externally governed codelist.
 
 
 ## Contextual XPath references
@@ -161,5 +168,3 @@ soilThemeParameterName <a name="soilThemeParameterName"></a> | //schema-element(
 layerGenesisEnvironment <a name="layerGenesisEnvironment"></a> | //schema-element(so:SoilLayer)/so:layerGenesisEnvironment/@xlink:href | 0..1 | Yes
 layerGenesisProcess <a name="layerGenesisProcess"></a> | //schema-element(so:SoilLayer)/so:layerGenesisProcess/@xlink:href | 0..1 | Yes
 layerRockType <a name="layerRockType"></a> | //schema-element(so:SoilLayer)/so:layerRockType/@xlink:href | 0..\* | Yes
-
-
