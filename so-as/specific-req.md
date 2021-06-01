@@ -1,4 +1,4 @@
-# Statistical Units theme-specific requirements
+# Soil theme-specific requirements
 
 **Purpose**: Verify that the following specific requirements are meet:
 
@@ -12,12 +12,9 @@
 
 **Test method**
 
-The following check is performed for every feature in the dataset.
+The following checks shall be manually performed for every feature in the dataset:
 
-* Check that <ins>only</ins> the lower-level values of the hierarchical code lists [ProfileElementParameterNameValue](http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue), [SoilDerivedObjectParameterNameValue](http://inspire.ec.europa.eu/codelist/SoilDerivedObjectParameterNameValue), [SoilProfileParameterNameValue](http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue), [SoilSiteParameterNameValue](http://inspire.ec.europa.eu/codelist/SoilSiteParameterNameValue) are used (the values of the first level: chemicalParameter, biologicalParameter, physicalParameter serve <ins>only</ins> the purpose of structuring).
-
-
-The following check shall be manually performed for every feature in the dataset:
+* Check that **only** the lower-level values of the hierarchical code lists [ProfileElementParameterNameValue](http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue), [SoilDerivedObjectParameterNameValue](http://inspire.ec.europa.eu/codelist/SoilDerivedObjectParameterNameValue), [SoilProfileParameterNameValue](http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue), [SoilSiteParameterNameValue](http://inspire.ec.europa.eu/codelist/SoilSiteParameterNameValue) are used. The values of the first level: _chemicalParameter_, _biologicalParameter_, _physicalParameter_ serve **only** the purpose of structuring and cannnot be used (e.g. http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue/chemicalParameter).
 
 * Check that when an additional descriptive parameter for the soil derived object is needed, the parameter attribute of the OM_Observation spatial object type is used.
 
@@ -30,7 +27,7 @@ The following check shall be manually performed for every feature in the dataset
 * [TG DS-SO](./README.md#ref_TG_DS_SO) 5.3.1.1.
 * [IR-ISDSS](./README.md#ref_IR-ISDSS) Annex IV, Section 3.4
 
-**Test type**: Automatic + Manual
+**Test type**: Manual
 
 **Notes** 
 
