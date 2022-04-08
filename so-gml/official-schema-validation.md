@@ -8,7 +8,7 @@
 
 **Test method**
 
-* Validate each document against the latest INSPIRE official schema(s): https://inspire.ec.europa.eu/schemas/so/4.0/Soil.xsd, using strict XML schema validation.
+* Validate each document against the latest INSPIRE official schema: https://inspire.ec.europa.eu/schemas/so/4.0/Soil.xsd, using strict XML schema validation.
 
 **Reference(s)**: 
 
